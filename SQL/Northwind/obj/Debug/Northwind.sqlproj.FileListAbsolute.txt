@@ -1,0 +1,7 @@
+C:\Users\intern\Source\Repos\SQL\Northwind\bin\Debug\Northwind.dacpac
+C:\Users\intern\Source\Repos\SQL\Northwind\obj\Debug\Model.xml
+C:\Users\intern\Source\Repos\SQL\Northwind\obj\Debug\refactor.xml
+C:\Users\intern\Source\Repos\SQL\Northwind\obj\Debug\postdeploy.sql
+C:\Users\intern\Source\Repos\SQL\Northwind\obj\Debug\predeploy.sql
+C:\Users\intern\Source\Repos\SQL\Northwind\obj\Debug\Northwind.dll
+C:\Users\intern\Source\Repos\SQL\Northwind\obj\Debug\Northwind.pdb

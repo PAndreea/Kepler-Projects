@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <script src="js/jquery.js"></script>
+<div class="header">
+  <h1>&hearts; &clubs; LONDRA &hearts; &clubs;</h1>
+</div>
+    <div id="panel">Whether you are visiting London for the first time or coming back for a special occasion, you’ll discover a city full of unforgettable landmarks and exciting things to do. Make the most of the top London attractions with our guide to the city’s must-sees.</div>
+
+<div class="row">
+
+<div class="col-3 col-s-3 menu">
+<ul>
+  <li id="draggable" class="ui-state-highlight"><b><i>Aranjeaza meniul</i></b></li>
+</ul>
+  <ul id="sortable">
+    <li ><a href="index.html"><i><b>Home</b></i></a></li>
+    <li><a href="istorie.html"><i><b>Istorie</b></i></a></li>
+    <li><a href="bigben.html"><i><b>Big Ben</b></i></a></li>
+    <li><a href="podul.html"><i><b>Podul Londrei</b></i></a></li>
+    <li><a href="date.html"><i><b>Rezervari</b></i></a></li>
+  </ul>
+    <br />
+   <button class="click" onclick="toggleclass()">Schimba fundal</button><br /><br />
+    <button class="click" onmouseover="a1()">Afiseaza data si timpul</button>
+    <p id="demo"></p><br />
+    <h5> Colegii si Universitati:</h5>
+    <select name="Univesitati">
+        <option value="Imperial College London">Imperial College London</option>
+        <option value="Universitatea Burnel">Universitatea Brunel</option>
+        <option value="Universitatea Westminster">Universitatea Westminster</option>
+        <option value="Central Saint Martin">Central Saint Martin</option>
+        <option value="Universitatea London South Bank">Universitatea London South Bank</option>
+    </select><br /> <br />
+    <span>
+            <img class="class1" src="images/download.jpg" />
+            <img class="class1" src="images/london1.jpg" />
+            <img class="class1" src="images/21.jpg" />
+
+        </span>
+</div>
+
+<div class="col-6 col-s-9">
+  <h1>Istoria Londrei</h1>
+  <p class="newspaper">La origini Londra a fost o așezare celtă. În 43 d.Hr. romanii au fondat orașul Londinium, iar numele acestuia se pare că a dat și numele nativ al orașului, London, deși unele date recente arată că London ar putea fi de origine celtă. În 61 d.Hr., noul oraș roman este asediat, prădat și ars pînă la temelii de către răsculații celți conduși de regina Boadicea.
+
+Londinium a fost abandonat după căderea Imperiului Roman. La vest de vechiul oraș a apărut în secolul al VII-lea o așezare saxonă cu numele Lundenwic, pe locul unde azi se află Aldwych. La începutul secolului al X-lea vechea cetate romană a fost reocupată. Inițial Westminster era un oraș distinct, însă în cele din urmă Londra și Westminster s-au integrat și au evoluat împreună, devenind cel mai mare oraș al Angliei, iar din secolul al XII-lea și capitală a regatului.
+
+Între secolele al XVI-lea și al XX-lea, Londra a înflorit, fiind capitală a Imperiului Britanic. Marele incendiu din 1666 a distrus o mare parte a orașului. Reconstrucția a durat peste 10 ani și a fost condusă de Sir Christopher Wren, care, cu acea ocazie, a proiectat și construit multe din clădirile emblematice ale Londrei de astăzi, așa cum ar fi spre exemplu Catedrala Sf. Paul. Creșterea orașului s-a accelerat în secolul al XVIII-lea, astfel că la începtul anilor 1800 Londra era cel mai mare oraș al lumii.
+
+Londra a fost o țintă a atacurilor teroriste ale IRA, iar mai recent a suferit o serie de atentate asupra sistemului de transport, soldate cu 52 de morți și atribuite grupării islamiste al-Qaeda.</p>
+  
+   <img src="images/ist.png" class="class3" />
+    <br />
+    <h2>Londra în epoca romană</h2>
+    <div id="swatch">
+    <p>Romanii au organizat Londinium ca oraș civil la vreo 7 ani de la invazia din anul 43 e.n. Primii romani au ocupat o regiune relativ mică, care cu greu s-ar putea compara cu mărimea Hyde Park. Cam prin anul 60 e.n., orașul a fost distrus de tribul Iceni condus de regina Boadicea. Totuși, așezarea a fost repede reconstruită după planurile romane și a fost recuperată după aproximativ 10 ani, orașul mărindu-se rapid în următoarele decenii. În secolul al II-lea, Londinium era la apogeu și a devenit capitala Provinciei Britannia în locul orașului Camulodunum (Colchester). Orașul avea cam 60 000 de locuitori. Au fost construite clădiri publice importante, inclusiv cea mai mare bazilică de la nord de Alpi, temple romane, terme, amfiteatre și un fort mare pentru garnizoana orașului. Instabilitatea politică și recesiunea care au apărut în secolul al III-lea au condus la un declin lent.
+
+        </p>
+     <p>La sfârșitul secolului al III-lea, Londinium a fost atacat de câteva ori de pirați saxoni. Cam din anul 255 romanii au început să construiască un zid suplimentar pe malul apei. Zidul va rezista în următorii 1600 de ani și va defini perimetrul Londrei pentru secolele următoare. Șase din cele șapte porți ale Londrei au denumiri de origine romană: Ludgate, Newgate, Aldersgate, Cripplegate, Bishopgate și Aldgate.
+
+      Până în secolul al V-lea, Imperiul Roman intrase în declin, astfel că în anul 410 e.n. romanii s-au retras din Provincia Britannia. Urmând aceeași tendință, și orașul roman a intrat în declin, așa încât, până la sfârșitul secolului, a fost practic abandonat.</p></div>
+    <h4>Schimba culoarea de fundal a textului.</h4>
+<div id="red"></div>
+<div id="green"></div>
+<div id="blue"></div>
+ 
+    
+</div>
+
+<div class="col-3 col-s-12">
+  <div class="aside">
+    <h2>What?</h2>
+    <p><mark>City of London</mark> este centrul istoric al orașului, și în același timp cel mai important cartier financiar al Regatului Unit.</p>
+    <h2>About</h2>
+    <p>Londra este un motor urias al economiei lumii. Londra a produs 365 miliarde $ în 2004 (17% din PIB-ul Regatului Unit), iar intreaga zona metropolitana londoneza a produs circa 30% din PIB-ul Regatului, adica mai mult decit PIB-ul Braziliei sau Rusiei.</p>
+    <h2>More</h2>
+    <p> Londra găzduiește cinci orchestre simfonice: London Symphony Orchestra, London Philharmonic Orchestra, Royal Philharmonic Orchestra, Philharmonia și BBC Symphony Orchestra. Principalele săli de concerte simfonice sînt Royal Albert Hall, Barbican Centre, Royal Festival Hall și Queen Elizabeth Hall. Royal Opera House din Covent Garden este casa Operei Regale și a Baletului Regal.
+
+        În Londra și-au început activitatea trupe rock celebre precum The Clash,<ins> Led Zeppelin, The Libertines, sau Pink Floyd.</ins> Săli de concerte rock celebre sunt Brixton Academy, Astoria sau Hammersmith Apollo.
+
+        <br />Londra găzduiește carnavaluri și parade celebre, cum ar fi Carnavalul din Notting Hill, sau paradele de Sfântul Patrick <sup>(17 martie)</sup> sau Sfântul Gheorghe <sub>(23 aprilie).</sub>
+
+        În Londra se găsesc peste 30 de teatre, majoritatea concentrate în West End. Cele mai multe sunt comerciale și pun în scenă musical-uri și alte piese populare. Teatre "ne-comerciale" sunt National Theatre, The Globe <del>(reconstrucție fidelă a vechiului teatru al lui Shakespeare),</del> Old Vic și Young Vic.</p>
+    <h3>Obiective turistice:</h3><br />
+    <table>
+        <tr>
+            <th>Nr.crt.</th>
+            <th>Obiectiv</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Big Ben</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Palatul Buckingham</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Roata din Londra</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Tower Bridge</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Turnul Londrei</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Palatul Westminster</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>London Dungeon</td>
+        </tr>
+
+    </table><br />
+      <p>Personalități marcante din Londra:</p>
+      <ul>
+          <li>
+              Actori
+              <ul>
+                  <li>Kate Beckinsale</li>
+                  <li>Ben Chaplin</li>
+                  <li>Tom Felton</li>
+                  <li>Hugh Grant</li>
+                  <li>Jude Law</li>
+              </ul>
+          </li>
+          <li>Scriitori
+              <ul>
+                  <li>Michael Moorcock</li>
+                  <li>Ann Radcliffe </li>
+                  <li>Tom Sharpe</li>
+                  <li>David Thomson</li>
+                  <li>Elizabeth Bowen</li>
+              </ul>
+          </li>
+          <li>Muzicieni
+          <ul>
+              <li>Adam Ant </li>
+              <li>James Blake</li>
+              <li>David Bowie </li>
+              <li>Gary Crosby</li>
+              <li>Ian Dury </li>
+          </ul>
+          </li>
+      </ul>
+
+       <img id="animate" src="images/building.jpg" />
+  
+</div></div>
+
+</div>
+
+<div class="footer">
+  <p>Descopera Londra<br />Copyright &copy; Toate drepturile sunt rezervate &hearts; &clubs;&rarr;</p>
+</div>
+
+</body>
+</html>

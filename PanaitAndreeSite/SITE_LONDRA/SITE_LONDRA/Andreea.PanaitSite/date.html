@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+    <script src="js/jquery.js"></script>
+    <script src="js/js.js"></script>
+<div class="header">
+  <h1>&hearts; &clubs; LONDRA &hearts; &clubs;</h1>
+</div>
+<div id="panel">Whether you are visiting London for the first time or coming back for a special ocasion, you’ll discover a city full of unforgettable landmarks and exciting things to do. Make the most of the top London attractions with our guide to the city’s must-sees.</div>
+
+<div class="row">
+
+<div class="col-3 col-s-3 menu">
+  <ul>
+    <li><a href="index.html"><i><b>Home</b></i></a></li>
+    <li><a href="istorie.html"><i><b>Istorie</b></i></a></li>
+    <li><a href="bigben.html"><i><b>Big Ben</b></i></a></li>
+    <li><a href="podul.html"><i><b>Podul Londrei</b></i></a></li>
+    <li><a href="date.html"><i><b>Rezervari</b></i></a></li>
+  </ul>
+    <br />
+    <button class="click" onclick="toggleclass()">Schimba fundal</button><br /><br />
+    <button class="click">Afiseaza data si timpul</button>
+    <p id="demo"></p><br />
+    <h5> Colegii si Universitati:</h5>
+    <select name="Univesitati">
+        <option value="Imperial College London">Imperial College London</option>
+        <option value="Universitatea Burnel">Universitatea Brunel</option>
+        <option value="Universitatea Westminster">Universitatea Westminster</option>
+        <option value="Central Saint Martin">Central Saint Martin</option>
+        <option value="Universitatea London South Bank">Universitatea London South Bank</option>
+    </select><br /> <br />
+    <span>
+            <img class="class1" src="images/download.jpg" />
+            <img class="class1" src="images/london1.jpg" />
+            <img class="class1" src="images/21.jpg" />
+
+        </span>
+</div>
+
+<div class="col-6 col-s-9">
+  <h1>Rezervari</h1>
+     <form name="formular">
+        Nume:<br /><input type="text" name="nume" /><br />
+        Prenume:<br /><input type="text" name="prenume" /><br />
+        Plecare:<br /><input type="text" name="plecare" id="datepicker" /><br />
+        Intoarcere:<br /><input type="text" name="intoarcere" id="datepicker2" /><br /><br />
+        <input type="button" value="Adauga" onclick="adauga()" /><br /><br />
+     </form><br />
+<table id="tab">
+        <tr>
+            <th>Nume</th>
+            <th>Prenume</th>
+            <th>Data plecare</th>
+            <th>Data intoarcere</th>
+        </tr>
+    </table>
+ 
+ 
+</div>
+
+<div class="col-3 col-s-12">
+  <div class="aside">
+    <h2>What?</h2>
+    <p><mark>City of London</mark> este centrul istoric al orașului, și în același timp cel mai important cartier financiar al Regatului Unit.</p>
+    <h2>About</h2>
+      <button class="hide">Hide/Show text</button>
+    <p id="hide">Londra este un motor urias al economiei lumii. Londra a produs 365 miliarde $ în 2004 (17% din PIB-ul Regatului Unit), iar intreaga zona metropolitana londoneza a produs circa 30% din PIB-ul Regatului, adica mai mult decit PIB-ul Braziliei sau Rusiei.</p>
+    <h2>More</h2>
+    <p> Londra găzduiește cinci orchestre simfonice: London Symphony Orchestra, London Philharmonic Orchestra, Royal Philharmonic Orchestra, Philharmonia și BBC Symphony Orchestra. Principalele săli de concerte simfonice sînt Royal Albert Hall, Barbican Centre, Royal Festival Hall și Queen Elizabeth Hall. Royal Opera House din Covent Garden este casa Operei Regale și a Baletului Regal.
+
+        În Londra și-au început activitatea trupe rock celebre precum The Clash,<ins> Led Zeppelin, The Libertines, sau Pink Floyd.</ins> Săli de concerte rock celebre sunt Brixton Academy, Astoria sau Hammersmith Apollo.
+
+        <br />Londra găzduiește carnavaluri și parade celebre, cum ar fi Carnavalul din Notting Hill, sau paradele de Sfântul Patrick <sup>(17 martie)</sup> sau Sfântul Gheorghe <sub>(23 aprilie).</sub>
+
+        În Londra se găsesc peste 30 de teatre, majoritatea concentrate în West End. Cele mai multe sunt comerciale și pun în scenă musical-uri și alte piese populare. Teatre "ne-comerciale" sunt National Theatre, The Globe <del>(reconstrucție fidelă a vechiului teatru al lui Shakespeare),</del> Old Vic și Young Vic.</p>
+    <h3>Obiective turistice:</h3><br />
+    <table>
+        <tr>
+            <th>Nr.crt.</th>
+            <th>Obiectiv</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Big Ben</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Palatul Buckingham</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Roata din Londra</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Tower Bridge</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Turnul Londrei</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Palatul Westminster</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>London Dungeon</td>
+        </tr>
+
+    </table><br />
+      <p>Personalități marcante din Londra:</p>
+      <ul>
+          <li>
+              Actori
+              <ul>
+                  <li>Kate Beckinsale</li>
+                  <li>Ben Chaplin</li>
+                  <li>Tom Felton</li>
+                  <li>Hugh Grant</li>
+                  <li>Jude Law</li>
+              </ul>
+          </li>
+          <li>Scriitori
+              <ul>
+                  <li>Michael Moorcock</li>
+                  <li>Ann Radcliffe </li>
+                  <li>Tom Sharpe</li>
+                  <li>David Thomson</li>
+                  <li>Elizabeth Bowen</li>
+              </ul>
+          </li>
+          <li>Muzicieni
+          <ul>
+              <li>Adam Ant </li>
+              <li>James Blake</li>
+              <li>David Bowie </li>
+              <li>Gary Crosby</li>
+              <li>Ian Dury </li>
+          </ul>
+          </li>
+      </ul>
+
+      <img id="animate" src="images/building.jpg" />
+
+</div></div>
+
+</div>
+
+<div class="footer">
+  <p>Descopera Londra<br />Copyright &copy; Toate drepturile sunt rezervate &hearts; &clubs;&rarr;</p>
+</div>
+</body>
+</html>
