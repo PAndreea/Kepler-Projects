@@ -1,0 +1,212 @@
+﻿
+* {
+    box-sizing:border-box;
+}
+body {
+    background-color:antiquewhite;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: auto;
+    height: 80px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: deepskyblue;
+}
+
+li {
+    float: left;
+}
+
+li:hover {
+    background-color:darkblue;
+}
+
+li a {
+       display: block;
+       color: white;
+       text-align: center;
+       padding: 16px;
+       text-decoration: none;
+    }
+
+section {
+    float: right;
+    background: url('images/bg.jpg');
+    text-align: left;
+}
+
+.newspaper {
+    column-count:3;
+}
+
+.newspaper:before {
+    content: ' \2614';
+}
+
+ .newspaper:after {
+        content: ' \2614';
+    }
+
+img.class1 {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 20%;
+    transition: transform 2s;
+}
+ img.class1:hover {
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+        border-radius: 20%;
+        transform: rotate(360deg);
+    }
+
+img.class2 {
+    width: 600px;
+    height: 300px;
+    border-radius: 15%;
+    display:block;
+    margin:auto;
+
+}
+
+
+img.class3 {
+    width:70%;
+    height:40%;
+    opacity:0.7;
+}
+#head1 {
+    animation-timing-function: linear;
+}
+
+h1 {
+    color: midnightblue;
+    font-family: Verdana;
+    font-size: 200%;
+    text-shadow: 2px 2px 2px red;
+    position:relative;
+    animation: animatie 7s infinite;
+}
+
+@keyframes animatie {
+    from {
+        left: 300px;
+    }
+
+    to {
+        left: 900px;
+    }
+}
+
+ article {
+        text-align: center;
+        background-color: #80aaff;
+    }
+
+table, th, td {
+        border: 1px solid black;
+    }
+
+tr:nth-child(even) {
+        background-color: lightpink;
+    }
+
+tr:nth-child(odd) {
+    background-color:palegreen;
+}
+
+th {
+        background: linear-gradient(red, yellow,green);
+        width: 200px;
+    }
+
+ #a {
+        width: 550px;
+        height: 300px;
+        display: block;
+        margin: auto;
+    }
+
+ .buton {
+        background-color: indianred;
+        color: white;
+        width: 230px;
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+ .street {
+     position:relative;
+ }
+
+.over {
+    position: absolute;
+    bottom: 10px;
+    left: 250px;
+    font-size: 30px;
+    color:white;
+}
+
+input[type=text]:focus,input[type=password]:focus {
+    background-color:burlywood;
+    border:2px solid red;
+}
+
+.spatiu:after{
+    content:"";
+    display:table;
+    clear:both;
+
+}
+
+.imagine {
+    position:relative;
+    float:left;
+    width:50%;
+    
+}
+
+.scris {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #80ffd4;
+    overflow: hidden;
+    width: 600px;
+    height: 300px;
+    border-radius: 15%;
+    transition: .5s ease;
+    opacity: 0;
+    margin-left:111px;
+}
+
+.imagine:hover .scris {
+    opacity: 0.7;
+}
+
+.text {
+    text-align: center;
+    color:crimson;
+    font-size: 30px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
